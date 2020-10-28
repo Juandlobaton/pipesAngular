@@ -21,6 +21,7 @@ export class AppComponent {
   dosAgo = Date.now() - (1000*60*60*48); 
   mesAgo = Date.now() - (1000*60*60*60*12);
   mesesAgo = Date.now() - (1000*60*60*60*30);
+  anioAgo = Date.now() - (1000*60*60*60*130);
 
   numberOne = 2;
   numberTwo = 10;
